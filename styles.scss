@@ -1,0 +1,80 @@
+body,
+html {
+  font-size: 16px;
+  font-family: Yu Gothic sans-serif;
+  text-align: center;
+}
+p {
+  margin: 10px 0;
+}
+li {
+  margin: 8px 0;
+}
+
+a {
+  color: rgb(83, 83, 83);
+  &:hover {
+    opacity: 0.6;
+  }
+}
+.table {
+  max-width: 600px;
+  width: 80%;
+  margin: 30px auto;
+  border-collapse: collapse;
+  border: 2px solid rgb(83, 83, 83);
+  th,
+  td {
+    border-collapse: collapse;
+    border: 2px solid rgb(83, 83, 83);
+  }
+}
+
+.image-wrapper {
+  border-top: 1.5px solid rgba(36, 36, 36, 0.721);
+  border-bottom: 1.5px solid rgba(36, 36, 36, 0.721);
+  padding: 30px 0;
+  img {
+    width: 80%;
+    margin: 0 auto;
+    max-height: 400px;
+    object-fit: cover;
+  }
+}
+
+.name {
+  text-align: right;
+  margin-right: 10%;
+}
+
+.title {
+  text-decoration: underline;
+}
+
+.content {
+  max-width: 1200px;
+  @media screen and (max-width: 1200px) {
+    max-width: 960px;
+  }
+  @media screen and (max-width: 768px) {
+    max-width: 560px;
+  }
+  @media screen and (max-width: 420px) {
+    max-width: 300px;
+  }
+  margin: 0 auto;
+}
+
+.left {
+  text-align: justify;
+}
+
+footer {
+  border-top: 1px solid black;
+}
+
+.collage,
+.ind,
+.free {
+  padding: 15px 0;
+}
