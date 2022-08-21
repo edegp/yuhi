@@ -5,7 +5,7 @@ html {
   text-align: center;
 }
 p {
-  margin: 10px 0;
+  margin: 12px 0;
 }
 li {
   margin: 8px 0;
@@ -52,15 +52,15 @@ a {
 }
 
 .content {
-  max-width: 1200px;
+  max-width: 1100px;
   @media screen and (max-width: 1200px) {
-    max-width: 960px;
+    max-width: 860px;
   }
   @media screen and (max-width: 768px) {
     max-width: 560px;
   }
   @media screen and (max-width: 420px) {
-    max-width: 300px;
+    max-width: 260px;
   }
   margin: 0 auto;
 }
