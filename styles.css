@@ -1,8 +1,12 @@
 body,
 html {
   font-size: 16px;
-  font-family: Yu Gothic sans-serif;
+  font-family: "source-han-sans-japanese", Yu Gothic sans-serif;
   text-align: center;
+}
+
+h4 {
+  margin-top: 24px;
 }
 
 p {
@@ -96,10 +100,12 @@ footer {
   text-decoration: line-through;
 }
 
-h4 {
-  margin-top: 24px;
-}
-
 .ind dd > a {
   display: block;
+}
+.basic {
+  margin: 12px;
+}
+.basic li {
+  margin: 0;
 }
