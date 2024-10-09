@@ -4,6 +4,26 @@ html {
   font-family: "source-han-sans-japanese", Yu Gothic sans-serif;
   text-align: center;
 }
+p, h1, h2, h3, h4, h5, h6, li, dt, dd, a {
+  box-sizing: border-box;
+  margin-bottom: 0.2em;
+}
+header>nav {
+  padding: 12px 0;
+  display: flex;
+}
+/* header>nav>a {
+  margin-right: auto;
+} */
+header>nav>ul {
+  display: flex;
+  gap: 12px;
+  padding: 12px 0;
+  margin: 0
+}
+header>nav>ul>li > a{
+  text-decoration: none;
+}
 
 h4 {
   margin-top: 24px;
@@ -17,7 +37,7 @@ ul,
 dd,
 dt {
   padding: 0;
-  margin: 0;
+  margin: 0 0 0.2em 0;
 }
 
 li {
@@ -27,9 +47,9 @@ li {
 
 a {
   color: rgb(83, 83, 83);
-  &:hover {
-    opacity: 0.6;
-  }
+}
+a:hover {
+  opacity: 0.6;
 }
 
 .table {
@@ -61,7 +81,9 @@ td {
 
 .name {
   text-align: right;
+  margin: auto 0;
   margin-right: 10%;
+  margin-left: auto;
 }
 
 .title {
@@ -90,9 +112,9 @@ footer {
   border-top: 1px solid black;
 }
 
-.collage,
-.ind,
-.free {
+#collage,
+#ind,
+#free {
   padding: 15px 0;
 }
 
@@ -100,7 +122,7 @@ footer {
   text-decoration: line-through;
 }
 
-.ind dd > a {
+#ind dd > a {
   display: block;
 }
 .basic {
@@ -108,4 +130,25 @@ footer {
 }
 .basic li {
   margin: 0;
+}
+ul#experiments {
+  margin: 0 auto;
+  width: 80%;
+}
+ul#experiments > li {
+  margin: 0 16px;
+}
+ul#experiments > li > dt {
+  font-weight: bold;
+}
+ul#experiments > li > dd > ul > li {
+  list-style: circle;
+  text-align: left;
+}
+
+#self-PR > p{
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+  line-height: 1.6;
 }
