@@ -1,428 +1,396 @@
 <!DOCTYPE html>
 <html lang="ja">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Yuhi Aoki（青木悠飛）</title>
-    <link rel="stylesheet" href="./styles.css" />
-    <script defer>
-      ;(function (d) {
-        var config = {
-            kitId: "qrz8yfj",
-            scriptTimeout: 3000,
-            async: true,
-          },
-          h = d.documentElement,
-          t = setTimeout(function () {
-            h.className =
-              h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"
-          }, config.scriptTimeout),
-          tk = d.createElement("script"),
-          f = false,
-          s = d.getElementsByTagName("script")[0],
-          a
-        h.className += " wf-loading"
-        tk.src = "https://use.typekit.net/" + config.kitId + ".js"
-        tk.async = true
-        tk.onload = tk.onreadystatechange = function () {
-          a = this.readyState
-          if (f || (a && a != "complete" && a != "loaded")) return
-          f = true
-          clearTimeout(t)
-          try {
-            Typekit.load(config)
-          } catch (e) {}
-        }
-        s.parentNode.insertBefore(tk, s)
-      })(document)
-    </script>
-  </head>
-  <body>
-    <header>
-      <nav>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Yuhi Aoki（青木悠飛）</title>
+  <link rel="stylesheet" href="./styles.css" />
+  <script defer>
+    ; (function (d) {
+      var config = {
+        kitId: "qrz8yfj",
+        scriptTimeout: 3000,
+        async: true,
+      },
+        h = d.documentElement,
+        t = setTimeout(function () {
+          h.className =
+            h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive"
+        }, config.scriptTimeout),
+        tk = d.createElement("script"),
+        f = false,
+        s = d.getElementsByTagName("script")[0],
+        a
+      h.className += " wf-loading"
+      tk.src = "https://use.typekit.net/" + config.kitId + ".js"
+      tk.async = true
+      tk.onload = tk.onreadystatechange = function () {
+        a = this.readyState
+        if (f || (a && a != "complete" && a != "loaded")) return
+        f = true
+        clearTimeout(t)
+        try {
+          Typekit.load(config)
+        } catch (e) { }
+      }
+      s.parentNode.insertBefore(tk, s)
+    })(document)
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#carrer">経歴</a></li>
+        <li><a href="#work">職歴</a></li>
+        <li><a href="#free">個人事業</a></li>
+        <li><a href="#self-introduction">自己紹介</a></li>
+        <li><a target="_blank" rel="noopener noreferrer" href="./青木悠飛_CV (1).pdf">CV</a></li>
+      </ul>
+      <h1 class="name">Yuhi Aoki</h1>
+    </nav>
+    <div class="image-wrapper">
+      <img src="./20220416_094640697_iOS.webp" alt="新潟大学の寮の前" width="80%" />
+    </div>
+  </header>
+
+  <div class="content">
+    <p>連絡先</p>
+    <p>Email : <a href="dm240001@g.hit-u.ac.jp">dm240001@g.hit-u.ac.jp</a>、<a href="info@anful.ai">info@anful.ai</a></p>
+    <div id="carrer">
+      <h2 class="title">経歴</h2>
+      <p>修士１年/AIエンジニア/フリーランス/ウェブ制作</p>
+      <p>
+        機械学習を用いた脳の食の主観的価値の処理過程について研究<br />
+        ホームページ・アプリケーション作成をしています。<br />
+        会社ではアナリストとして、データ分析・DXの提案をしています。
+      </p>
+      <div id="collage">
+        <h3>研究</h3>
+        <h4>学部の専攻は心理学、大学院では脳神経科学について研究（<a
+            href="https://sites.google.com/view/szklab/%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC">鈴木Lab</a>）</h4>
         <ul>
-          <li><a href="#carrer">経歴</a></li>
-          <li><a href="#work">職歴</a></li>
-          <li><a href="#free">個人事業</a></li>
-          <li><a href="#self-introduction">自己紹介</a></li>
-          <li><a target="_blank" rel="noopener noreferrer" href="./青木悠飛_CV (1).pdf">CV</a></li>
-        </ul>
-        <h1 class="name">Yuhi Aoki</h1>
-      </nav>
-      <div class="image-wrapper">
-        <img
-          src="./20220416_094640697_iOS.webp"
-          alt="新潟大学の寮の前"
-          width="80%"
-        />
-      </div>
-    </header>
-
-    <div class="content">
-      <div id="carrer">
-        <h2 class="title">経歴</h2>
-        <p>大学院生、個人事業主、時短正社員（半分クビ）</p>
-        <p>
-          普段は機械学習を用いた脳の処理過程について研究、<br />
-          ホームページ・アプリケーション作成をしています。<br />
-          会社ではアナリストとして、データ分析・DXの提案をしています。
-        </p>
-        <div id="collage">
-          <h3>大学の研究</h3>
-          <h4>大学の専攻は心理学、大学院では脳神経科学について研究（<a href="https://sites.google.com/view/szklab/%E3%83%A1%E3%83%B3%E3%83%90%E3%83%BC">鈴木Lab</a>）</h4>
-          <ul>
-            <li>
-              <p>
-                3年時：<a
-                href="./esportsにおけるパフォーマンスに影響を与える要因の分析.pdf"
-                >esportsにおけるパフォーマンスに影響を与える要因の分析</a
-              >
-              </p>
-            </li>
-            <li>
-              <p>
-                4年時：<a href="./青木悠飛_卒論.pdf">日本のDXは効果があるのか？</a>
-              </p>
-            </li>
-              <a
-                href="https://www.meta-school.t.u-tokyo.ac.jp/reskilling/gci2404/"
-              >
-                東京大学松尾研究室グローバルインテリジェンス寄付講座を修了（2023年1月31日）</a
-              >
-            </li>
-          </ul>
-        </div>
-        <div id="ind">
-          <h3>個人開発</h3>
-          <ul>
-            <li>
-              <dt>
-                CNNを使った主観的価値の推定、従来モデル（VGG16）より30%程度精度向上（進行中）
-              </dt>
-              <dd>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/edegp/food_cnn"
-                  ><img src="github-mark.svg" alt="github" width="24" height="24"/>
-                  </a>
-                  </a
-                >
-              </dd>
-            </li>
-            <li>
-              <dt>
-                Money Forward<sup>※1</sup>自動出勤システム with Slack<sup
-                  >※2</sup
-                >
-              </dt>
-              <dd>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/edegp/moneyforward-slack_attendance"
-                  ><img src="github-mark.svg" alt="github" width="24" height="24"/></a
-                >
-              </dd>
-            </li>
-            <li>
-              <dt>機械学習・統計モデルを組み合わせた不動産価格の推定</dt>
-              <dd>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/edegp/development_of_statistical_analysis-/tree/main"
-                  ><img src="github-mark.svg" alt="github" width="24" height="24"/></a
-                >
-              </dd>
-            </li>
-
-            <li>
-              <dt>クレジットカード決済webアプリ</dt>
-              <dd>
-                <a target="_blank" href="https://anful.netlify.app">Demo</a
-                ><a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/edegp/portfolio"
-                  ><img src="github-mark.svg" alt="github" width="24" height="24"/></a
-                >
-              </dd>
-            </li>
-            <li>
-              <dt>LINE<sup>※3</sup>予約デモページ</dt>
-              <dd>
-                <a target="_blank" href="https://cafe-cms-demo.vercel.app"
-                  >Demo</a
-                ><a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/edegp/cafe-cms-demo"
-                  ><img src="github-mark.svg" alt="github" width="24" height="24"/></a
-                >
-              </dd>
-            </li>
-            <li>
-              <dt>LINEモバイルオーダーのデモページ</dt>
-              <dd>
-                <a
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  href="https://github.com/edegp/line-order"
-                  ><img src="github-mark.svg" alt="github" width="24" height="24"/></a
-                >
-              </dd>
-            </li>
-            <li>
-              <dt>飲食店のレコメンドAIアプリFooder（開発中）</dt>
-              <dd>
-                <a href="https://fooder-app.vercel.app/">Demo</a>
-                <a href="https://github.com/edegp/yuhi"><img src="github-mark.svg" alt="github" width="24" height="24"/></a>
-                <ul class="basic">
-                  <li>user: edegp</li>
-                  <li>password: aasleep1241</li>
-                </ul>
-              </dd>
-            </li>
-          </ul>
-          <p>
-            ※1 Money Forwardは株式会社マネーフォワードの登録商標です。<br />
-            このアプリは株式会社マネーフォワードとは一切関係ありません。
-          </p>
-          <p>
-            ※2 SlackはSlack Technologies, LLC.の登録商標です。<br />
-            このアプリはSlack Technologies, LLC.とは一切関係ありません。
-          </p>
-          <p>
-            ※3 LINEはLINEヤフー株式会社の登録商標です。<br />
-            このアプリはLINEヤフー株式会社とは一切関係ありません。
-          </p>
-        </div>
-        <div id="work">
-          <h3>職歴</h3>
-          <ul>
-            <li>
-              <dt><a href="https://no-spare.com/">株式会社Nospare</a></dt>
-              <dd>
-                アナリストとして、商業施設の売上予測・テレビ番組の視聴率予測・戸建て不動産価格予測APIを作成に従事<br/>機械学習・統計モデルを用いたデータ分析・DXの提案をしています（2023年4月～）
-              </dd>
-            </li>
-            <li>
-              <dt><a href="https://www.uzabase.com/">株式会社ユーザベース</a></dt>
-              <dd>
-                <a
-                  href="https://hrmos.co/pages/uzabase/jobs/1829077236709650483"
-                >
-                  ソフトウェアエンジニア</a
-                >として、中国版Speedaで放置されていて環境設定を再構築し機能の問題を解消 </br>
-                Speeda新機能の<a href="https://jp.ub-speeda.com/news/20230324/">ダッシュボードの機能</a>のアップデート・決算書の<a href="https://jp.ub-speeda.com/news/20231220/">AIサマリー機能</a
-                >
-                の要件定義に従事（2023年5月～2023年10月）
-              </dd>
-            </li>
-            <li>
-              <dt><a href="https://linc-well.com/">株式会社Linc'well</a></dt>
-              <dd>フロントエンジニアインターンとして、Webアプリのリプレイスに従事（2022年9月～2023年3月）</dd>
-            </li>
-           </li>
-              <dt><a href="https://homeatlast.co.jp/">homeatlast株式会社</a></dt>
-              <dd>
-                ECサイトの運用・保守・新規作成（2021年8月～2022年3月）
-              </dd>
-            </li>
-          </ul>
-        </div>
-        <div id="free">
-          <h3>個人事業</h3>
-          <p>ホームページ作成</p>
-          <ul>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://anful.netlify.app/"
-                >anful.jp</a
-              >
-            </li>
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://tutuzi.co.jp/"
-                >つつじ不動産様ホームページ作成</a
-              >
-            <li>
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://taekobread.base.shop"
-                >taeko bread様のECサイト作成</a
-              >
-            </li>
-          </ul>
-        </div>
-
-        <p>
-           <p>連絡先</p>
-            <p>Email : info@anful.jp</p>
+          <li>
             <p>
-              note:
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://note.com/edegp/"
-                >edegp</a
-              >
+              3年時：<a href="./esportsにおけるパフォーマンスに影響を与える要因の分析.pdf">esportsにおけるパフォーマンスに影響を与える要因の分析</a>
             </p>
-            <p><a
-            target="_blank"
-            rel="noopener noreferrer"
-            href="https://github.com/edegp/"
-            ><img src="github-mark.svg" alt="github" width="24" height="24"/></a
-          ></p>
-        </p>
+          </li>
+          <li>
+            <p>
+              4年時：<a href="./青木悠飛_卒論.pdf">日本のDXは効果があるのか？</a>
+            </p>
+          </li>
+          <li>
+            <a href="https://www.meta-school.t.u-tokyo.ac.jp/reskilling/gci2404/">
+              東京大学松尾研究室グローバルインテリジェンス寄付講座</a>を修了<br />（2023年1月31日）
+          </li>
+          <li>
+            <p>
+              <a href="https://sites.google.com/view/cpsytokyo2025/%E3%83%9B%E3%83%BC%E3%83%A0?authuser=0">CPSY TOKYO
+                2025</a> <br />ポスター発表 「食の好みの脳計算過程:深層学習モデルによる健常者と肥満者の比較」
+            </p>
+          </li>
+          <li>
+            <p>
+              <a href="https://www.ai-gakkai.or.jp/jsai2025/c_entry/">人工知能学会（JSAI）
+                2025</a> <br />論文発表 「食べ物の好みの脳計算過程：深層学習によるモデリング」
+          </li>
+          <li>
+            <dt>
+              ディープニューラルネットワークを使った主観的価値の解明
+            </dt>
+            <dd>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/edegp/food_cnn"><img
+                  src="github-mark.svg" alt="github" width="24" height="24" />
+              </a>
+              </a>
+            </dd>
+          </li>
+
+        </ul>
       </div>
-      <div id="self-introduction">
-        <h2 class="title">自己紹介</h2>
-        <h3>主な使用言語</h3>
-        <p>
-          Javascript(3年)・Typescript(3年)・Python(3年)・SQL(1年)・R（1年）・Julia（半年）・PHP(半年)・Go(半年)・F#(2ヶ月)・Elixir（1ヶ月）
-        </p>
-        <h3>経験</h3>
-        <ul id="experiments">
+      <div id="ind">
+        <h3>個人開発</h3>
+        <ul>
           <li>
-            <dt>フロントエンド</dt>
+            <a>
+              <dt>中立な政治意見の可視化アプリケーション「Opinion Galaxy」</dt>
+              <dd>
+                <a target="_blank" rel="noopener noreferrer" href="https://zenn.dev/edegp/articles/f9be4f4f19814f"><img
+                    src="zenn-logo.svg" alt="zenn" width="24" height="24" /></a>
+              </dd>
+            </a>
+          </li>
+          <li>
+            <dt>
+              Money Forward<sup>※1</sup>自動出勤システム with Slack<sup>※2</sup>
+            </dt>
             <dd>
-              <ul>
-                <li>Reactを用いたモダンなフロントエンド開発の実務経験</li>
-                <li>Reduxなどの状態管理ライブラリの実務経験</li>
-                <li>GraphQL APIの基礎的な知識</li>
-                <li>Github Workflowの開発経験</li>
-                <li>WordPressを用いたECサイトの開発経験</li>
-              </ul>
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/edegp/moneyforward-slack_attendance"><img src="github-mark.svg" alt="github"
+                  width="24" height="24" /></a>
             </dd>
           </li>
           <li>
-            <dt>バックエンド</dt>
+            <dt>機械学習・統計モデルを組み合わせた不動産価格の推定</dt>
             <dd>
-              <ul>
-                <li>Dockerを用いたコンテナ仮想化の実務経験</li>
-                <li>Kubernetesを用いたコンテナオーケストレーションの実務経験</li>
-                <li>Python・FastAPIを用いたバックエンドの実務経験</li>
-                <li>F#・dotnetを用いたバックエンドの実務経験</li>
-                <li>Elixir・Phoenixを用いたバックエンドの実務経験</li>
-                <li>Go・ent・gqlgenを用いたバックエンドの開発経験</li>
-              </ul>
+              <a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/edegp/development_of_statistical_analysis-/tree/main"><img
+                  src="github-mark.svg" alt="github" width="24" height="24" /></a>
+            </dd>
+          </li>
+
+          <li>
+            <dt>クレジットカード決済webアプリ</dt>
+            <dd>
+              <a target="_blank" href="https://anful.netlify.app">Demo</a><a target="_blank" rel="noopener noreferrer"
+                href="https://github.com/edegp/portfolio"><img src="github-mark.svg" alt="github" width="24"
+                  height="24" /></a>
             </dd>
           </li>
           <li>
-            <dt>データ分析</dt>
+            <dt>LINE<sup>※3</sup>予約デモページ</dt>
             <dd>
-              <ul>
-                <li>SQLを用いたデータベースの設計・開発の実務経験</li>
-                <li>R・Julia・Pythonを用いた統計解析・機械学習の実務経験</li>
-                <li>データ分析結果をPowerPoint・Excelで整理し、提案資料を作成する実務経験</li>
-                <li>Statsmodel・Matplotlib・Pandas・skitlearnを用いた<br/>EDA（探索的データ分析）・因果推論の実務経験</li>
-                <li>オープンソースパイプライン（kedro）を用いたデータパイプラインの実務経験</li>
-                <li>Pytorchを用いた画像認識の機械学習の開発経験</li>
-              </ul>
+              <a target="_blank" href="https://cafe-cms-demo.vercel.app">Demo</a><a target="_blank"
+                rel="noopener noreferrer" href="https://github.com/edegp/cafe-cms-demo"><img src="github-mark.svg"
+                  alt="github" width="24" height="24" /></a>
             </dd>
           </li>
           <li>
-            <dt>インフラ</dt>
+            <dt>LINEモバイルオーダーのデモページ</dt>
             <dd>
-              <ul>
-                <li>Firebase・AWS・GCPを用いたサーバーレスアーキテクチャの実務経験</li>
-                <li>CI/CD (Argo CD・Jenkins) の実務経験</li>
-              </ul>
+              <a target="_blank" rel="noopener noreferrer" href="https://github.com/edegp/line-order"><img
+                  src="github-mark.svg" alt="github" width="24" height="24" /></a>
             </dd>
           </li>
           <li>
-            <dt>その他</dt>
+            <dt>飲食店のレコメンドAIアプリFooder（開発中）</dt>
             <dd>
-              <ul>
-                <li>LINEミニアプリの開発経験</li>
-                <li>テスト開発・テスト駆動開発（TDD）の実務経験</li>
-                <li>コードレビューの実務経験</li>
-                <li>プロダクトの品質向上のためのユーザーテストの実務経験</li>
-                <li>ペアプログラミングの実務経験</li>
+              <a href="https://fooder-app.vercel.app/">Demo</a>
+              <a href="https://github.com/edegp/yuhi"><img src="github-mark.svg" alt="github" width="24"
+                  height="24" /></a>
+              <ul class="basic">
+                <li>user: edegp</li>
+                <li>password: aasleep1241</li>
               </ul>
             </dd>
           </li>
         </ul>
-        <h3>使用可能なライブラリ・フレームワーク</h3>
         <p>
-          React・Next.js・Redux・Pytorch・GraphQL・
-          Firebase・AWS・GCP・Docker・LINEミニアプリ・
-          Kubernetes
+          ※1 Money Forwardは株式会社マネーフォワードの登録商標です。<br />
+          このアプリは株式会社マネーフォワードとは一切関係ありません。
         </p>
-        <h4>使用経験のあるサービス</h4>
         <p>
-          AWS・Firebase・GCP・Docker
-          WordPress・LINEミニアプリ・Tableau・PowerPoint・Excel
+          ※2 SlackはSlack Technologies, LLC.の登録商標です。<br />
+          このアプリはSlack Technologies, LLC.とは一切関係ありません。
         </p>
-        <div id="self-PR">
-          <h3>自己PR</h3>
-          <p>文系出身で、大学卒業まですべてほぼ独学でプログラムを書いていました。</p>
-          <p>エンジニア歴は約3年、Web作成を半年、フロントエンジニア半年、ソフトウェアエンジニアを半年、AIコンサルを1年半</p>
-          <p>
-            チーム開発でリーダーまでやっていたので、基本的にエンジニア業務はほとんどできます。
-          </p>
-          <p>
-            また、データ分析の経験があるので、データ分析・データ可視化の業務もできます。
-          </p>
-          <p>コンサルで小規模プロジェクトのPdMを少しだけやったことがあります。</p>
-          <p>
-            生成AIについては勉強中です。最近はニューラルネット・生成モデルと脳の関係について研究しています。
-          </p>
-          <p>
-            自分は論理的思考が得意で、試行錯誤を惜しまないので、いろんな技術を吸収できていると思います。適応は比較的早いです。
-          </p>
-        </div>
-        <div id="background">
-          <table class="table">
-            <tr>
-              <th colspan="2">バックグラウンド</th>
-            </tr>
+        <p>
+          ※3 LINEはLINEヤフー株式会社の登録商標です。<br />
+          このアプリはLINEヤフー株式会社とは一切関係ありません。
+        </p>
+      </div>
+      <div id="work">
+        <h3>職歴</h3>
+        <ul>
+          <li>
+            <dt><a href="https://no-spare.com/">株式会社Nospare</a></dt>
+            <dd>
+              アナリストとして、商業施設の売上予測・テレビ番組の視聴率予測・戸建て不動産価格予測APIを作成に従事<br />機械学習・統計モデルを用いたデータ分析・DXの提案をしています（2023年4月～）
+            </dd>
+          </li>
+          <li>
+            <dt><a href="https://www.uzabase.com/">株式会社ユーザベース</a></dt>
+            <dd>
+              <a href="https://hrmos.co/pages/uzabase/jobs/1829077236709650483">
+                ソフトウェアエンジニア</a>として、中国版Speedaで放置されていて環境設定を再構築し機能の問題を解消 </br>
+              Speeda新機能の<a href="https://jp.ub-speeda.com/news/20230324/">ダッシュボードの機能</a>のアップデート・決算書の<a
+                href="https://jp.ub-speeda.com/news/20231220/">AIサマリー機能</a>
+              の要件定義に従事（2023年5月～2023年10月）
+            </dd>
+          </li>
+          <li>
+            <dt><a href="https://linc-well.com/">株式会社Linc'well</a></dt>
+            <dd>フロントエンジニアインターンとして、Webアプリのリプレイスに従事（2022年9月～2023年3月）</dd>
+          </li>
+          </li>
+          <dt><a href="https://homeatlast.co.jp/">homeatlast株式会社</a></dt>
+          <dd>
+            ECサイトの運用・保守・新規作成（2021年8月～2022年3月）
+          </dd>
+          </li>
+        </ul>
+      </div>
+      <div id="free">
+        <h3>個人事業</h3>
+        <p>ホームページ作成</p>
+        <ul>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://anful.netlify.app/">anful.ai</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://tutuzi.co.jp/">つつじ不動産様ホームページ作成</a>
+          </li>
+          <li>
+            <a target="_blank" rel="noopener noreferrer" href="https://taekobread.base.shop">taeko bread様のECサイト作成</a>
+          </li>
+        </ul>
+      </div>
 
-            <tr>
-              <th>高校</th>
-              <td>都立三田高等学校(2019年3月卒業)</td>
-            </tr>
-            <tr>
-            </tr>
-            <tr>
-              <th>大学</th>
-              <td>新潟大学 創生学部(2023年3月卒業)</td>
-            </tr>
-            <tr>
-              <th>大学院</th>
-              <td>一橋大学 ソーシャル・データサイエンス研究科(2026年3月卒業予定)</td>
-            </tr>
-            <tr>
-              <th>TOEIC IP</th>
-              <td>615点程度(2019年7月)</td>
-            </tr>
-            <tr>
-              <th rowspan="4">課外活動</th>
-              <td>高校ではバスケットボール部</td>
-            </tr>
-            <tr>
-              <td>基礎スキー検定2級取得(2018年3月)</td>
-            </tr>
-            <tr>
-              <td>大学では競技スキー部で全国岩岳スキー大会出場</td>
-            </tr>
-            <tr>
-              <td>有志で創生パンフレット作成</td>
-            </tr>
-          </table>
-        </div>
+      <p>
+      <p>連絡先</p>
+      <p>Email : info@anful.jp</p>
+      <p>
+        note:
+        <a target="_blank" rel="noopener noreferrer" href="https://note.com/edegp/">edegp</a>
+      </p>
+      <p><a target="_blank" rel="noopener noreferrer" href="https://github.com/edegp/"><img src="github-mark.svg"
+            alt="github" width="24" height="24" /></a></p>
+      </p>
+    </div>
+    <div id="self-introduction">
+      <h2 class="title">自己紹介</h2>
+      <h3>主な使用言語</h3>
+      <p>
+        Typescript(3年)・Python(3年)・SQL(1年)・R（1年）・Javascript(3年)・Julia（半年）・PHP(半年)・Go(半年)・F#(2ヶ月)・Elixir（1ヶ月）
+      </p>
+      <h3>経験</h3>
+      <ul id="experiments">
+        <li>
+          <dt>フロントエンド</dt>
+          <dd>
+            <ul>
+              <li>Reactを用いたモダンなフロントエンド開発の実務経験</li>
+              <li>Reduxなどの状態管理ライブラリの実務経験</li>
+              <li>GraphQL APIの基礎的な知識</li>
+              <li>Github Workflowの開発経験</li>
+              <li>WordPressを用いたECサイトの開発経験</li>
+            </ul>
+          </dd>
+        </li>
+        <li>
+          <dt>バックエンド</dt>
+          <dd>
+            <ul>
+              <li>Dockerを用いたコンテナ仮想化の実務経験</li>
+              <li>Kubernetesを用いたコンテナオーケストレーションの実務経験</li>
+              <li>Python・FastAPIを用いたバックエンドの実務経験</li>
+              <li>F#・dotnetを用いたバックエンドの実務経験</li>
+              <li>Elixir・Phoenixを用いたバックエンドの実務経験</li>
+              <li>Go・ent・gqlgenを用いたバックエンドの開発経験</li>
+            </ul>
+          </dd>
+        </li>
+        <li>
+          <dt>データ分析</dt>
+          <dd>
+            <ul>
+              <li>SQLを用いたデータベースの設計・開発の実務経験</li>
+              <li>R・Julia・Pythonを用いた統計解析・機械学習の実務経験</li>
+              <li>データ分析結果をPowerPoint・Excelで整理し、提案資料を作成する実務経験</li>
+              <li>Statsmodel・Matplotlib・Pandas・skitlearnを用いた<br />EDA（探索的データ分析）・因果推論の実務経験</li>
+              <li>オープンソースパイプライン（kedro）を用いたデータパイプラインの実務経験</li>
+              <li>Pytorchを用いた画像認識の機械学習の開発経験</li>
+            </ul>
+          </dd>
+        </li>
+        <li>
+          <dt>インフラ</dt>
+          <dd>
+            <ul>
+              <li>Firebase・AWS・GCPを用いたサーバーレスアーキテクチャの実務経験</li>
+              <li>CI/CD (Argo CD・Jenkins) の実務経験</li>
+            </ul>
+          </dd>
+        </li>
+        <li>
+          <dt>その他</dt>
+          <dd>
+            <ul>
+              <li>LINEミニアプリの開発経験</li>
+              <li>テスト開発・テスト駆動開発（TDD）の実務経験</li>
+              <li>コードレビューの実務経験</li>
+              <li>プロダクトの品質向上のためのユーザーテストの実務経験</li>
+              <li>ペアプログラミングの実務経験</li>
+            </ul>
+          </dd>
+        </li>
+      </ul>
+      <h3>使用可能なライブラリ・フレームワーク</h3>
+      <p>
+        React・Next.js・Redux・Pytorch・GraphQL・
+        Firebase・AWS・GCP・Docker・LINEミニアプリ・
+        Kubernetes
+      </p>
+      <h4>使用経験のあるサービス</h4>
+      <p>
+        AWS・Firebase・GCP・Docker
+        WordPress・LINEミニアプリ・Tableau・PowerPoint・Excel
+      </p>
+      <div id="self-PR">
+        <h3>自己PR</h3>
+        <p>文系出身で、大学卒業まですべてほぼ独学でプログラムを書いていました。</p>
+        <p>エンジニア歴は約3年、Web作成を半年、フロントエンジニア半年、ソフトウェアエンジニアを半年、AIコンサルを1年半</p>
+        <p>
+          チーム開発でリーダーまでやっていたので、基本的にエンジニア業務はほとんどできます。
+        </p>
+        <p>
+          また、データ分析の経験があるので、データ分析・データ可視化の業務もできます。
+        </p>
+        <p>コンサルで小規模プロジェクトのPdMを少しだけやったことがあります。</p>
+        <p>
+          生成AIについては勉強中です。最近はニューラルネット・生成モデルと脳の関係について研究しています。
+        </p>
+        <p>
+          自分は論理的思考が得意で、試行錯誤を惜しまないので、いろんな技術を吸収できていると思います。適応は比較的早いです。
+        </p>
+      </div>
+      <div id="background">
+        <table class="table">
+          <tr>
+            <th colspan="2">バックグラウンド</th>
+          </tr>
+
+          <tr>
+            <th>高校</th>
+            <td>都立三田高等学校(2019年3月卒業)</td>
+          </tr>
+          <tr>
+          </tr>
+          <tr>
+            <th>大学</th>
+            <td>新潟大学 創生学部(2023年3月卒業)</td>
+          </tr>
+          <tr>
+            <th>大学院</th>
+            <td>一橋大学 ソーシャル・データサイエンス研究科(2026年3月卒業予定)</td>
+          </tr>
+          <tr>
+            <th>TOEIC IP</th>
+            <td>615点程度(2019年7月)</td>
+          </tr>
+          <tr>
+            <th rowspan="4">課外活動</th>
+            <td>高校ではバスケットボール部</td>
+          </tr>
+          <tr>
+            <td>基礎スキー検定2級取得(2018年3月)</td>
+          </tr>
+          <tr>
+            <td>大学では競技スキー部で全国岩岳スキー大会出場</td>
+          </tr>
+          <tr>
+            <td>有志で創生パンフレット作成</td>
+          </tr>
+        </table>
       </div>
     </div>
-    <footer>
-      <p>© 2024 Yuhi Aoki</p>
-    </footer>
-  </body>
+  </div>
+  <footer>
+    <p>© 2024 Yuhi Aoki</p>
+  </footer>
+</body>
+
 </html>
